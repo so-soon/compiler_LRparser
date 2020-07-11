@@ -1,0 +1,4 @@
+name : hello type : function_name scope : block local size : 4
+name : a type : integer scope : block local size : 4
+name : b type : integer scope : block local size : 4
+name : c type : integer scope : IF size : 4

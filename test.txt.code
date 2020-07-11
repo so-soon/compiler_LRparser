@@ -1,0 +1,22 @@
+BEGIN hello
+LD Reg#0 3
+ST a Reg# 0
+LD Reg#0 3
+LD Reg#1 3
+LT Reg#0 Reg# 1 Reg#0
+JUMPF Reg#0 LABEL - 0
+LD Reg#0 5
+ST c Reg# 0
+LD Reg#0 3
+ST a Reg# 0
+JUMP LABEL - 1
+LABEL - 0
+LD Reg#0 4
+ST a Reg# 0
+LABEL - 1
+LD Reg#0 a
+LD Reg#1 1
+ADD Reg#0 Reg#0 Reg#1
+ST b Reg# 0
+LD Reg#0 a
+END hello

@@ -1,0 +1,1 @@
+hello ( ) { int a ; int b ; a = 3 ; IF 3 == 3 THEN { int c; c = 5; a = 3 ; } ELSE { a = 4 ; } b = a + 1 ; RETURN a ; }
