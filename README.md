@@ -1,3 +1,3 @@
 # compiler_LRparser
 
-SKKU Programming Language course assigment
+SKKU Programming Language course assignment
